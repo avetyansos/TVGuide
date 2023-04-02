@@ -25,8 +25,8 @@ class TVGuidePresenter: TVGuideViewOutput, TVGuideInteractorOutput {
         view?.reloadData()
     }
 
-    func tvGuideDataFetchFailed(error: String) {
-        print("Error fetching TV guide data: \(error)")
+    func tvGuideDataFetchFailed(error: Error) {
+        print("Error fetching TV guide data: \(error.localizedDescription)")
 
         // Handle the error, such as displaying an alert to the user
         DispatchQueue.main.async { [weak self] in

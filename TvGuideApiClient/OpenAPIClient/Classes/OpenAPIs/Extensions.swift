@@ -104,25 +104,24 @@ extension JSONEncodable where Self: Encodable {
     }
 }
 
-extension String: CodingKey {
-
-    public var stringValue: String {
-        return self
-    }
-
-    public init?(stringValue: String) {
-        self.init(stringLiteral: stringValue)
-    }
-
-    public var intValue: Int? {
-        return nil
-    }
-
-    public init?(intValue: Int) {
-        return nil
-    }
-
-}
+//extension String: CodingKey {
+//
+//    public var stringValue: String {
+//        return self
+//    }
+//
+//    public init?(stringValue: String) {
+//        self.init(stringLiteral: stringValue)
+//    }
+//
+//    public var intValue: Int? {
+//        return nil
+//    }
+//
+//    public init?(intValue: Int) {
+//        return nil
+//    }
+//}
 
 extension KeyedEncodingContainerProtocol {
 

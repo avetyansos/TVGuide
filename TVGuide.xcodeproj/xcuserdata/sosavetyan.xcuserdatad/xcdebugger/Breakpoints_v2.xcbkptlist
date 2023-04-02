@@ -7,17 +7,313 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "8CDB9FDC-C1B3-4F25-A834-84EBFEE18FFD"
+            uuid = "5CD96384-B4E9-4D65-B32A-00EA929B804A"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "TVGuide/Scene/Cells/ProgramCollectionViewCell.swift"
+            filePath = "TVGuideTests/Mocks/MockTVGuideAPIClient.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "15"
-            endingLineNumber = "15"
-            landmarkName = "configure(with:)"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "fetchProgramItems(completion:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5CD96384-B4E9-4D65-B32A-00EA929B804A - 41b55c7c02e062a0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TVGuide.MockTVGuideAPIClient.fetchProgramItems(completion: (Swift.Result&lt;Swift.Array&lt;TVGuide.ProgramItem&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TVGuide"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sosavetyan/Desktop/TVGuide/TVGuideTests/Mocks/MockTVGuideAPIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "5CD96384-B4E9-4D65-B32A-00EA929B804A - ad9f41c7a1d3a554"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TVGuideTests.MockTVGuideAPIClient.fetchProgramItems(completion: (Swift.Result&lt;Swift.Array&lt;TVGuideTests.ProgramItem&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TVGuideTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sosavetyan/Desktop/TVGuide/TVGuideTests/Mocks/MockTVGuideAPIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "5CD96384-B4E9-4D65-B32A-00EA929B804A - ad9f41c7a1d3a554"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TVGuideTests.MockTVGuideAPIClient.fetchProgramItems(completion: (Swift.Result&lt;Swift.Array&lt;TVGuideTests.ProgramItem&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TVGuideTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sosavetyan/Desktop/TVGuide/TVGuideTests/Mocks/MockTVGuideAPIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "5CD96384-B4E9-4D65-B32A-00EA929B804A - ad9f41c7a1d3a554"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TVGuideTests.MockTVGuideAPIClient.fetchProgramItems(completion: (Swift.Result&lt;Swift.Array&lt;TVGuideTests.ProgramItem&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TVGuideTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sosavetyan/Desktop/TVGuide/TVGuideTests/Mocks/MockTVGuideAPIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "120">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A3FE8689-08C3-4880-B8A9-7617B4B97C22"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TVGuideTests/Mocks/MockTVGuideAPIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "fetchChannels(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A3FE8689-08C3-4880-B8A9-7617B4B97C22 - 1e9af61c853b74fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TVGuide.MockTVGuideAPIClient.fetchChannels(completion: (Swift.Result&lt;Swift.Array&lt;TVGuide.Channel&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TVGuide"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sosavetyan/Desktop/TVGuide/TVGuideTests/Mocks/MockTVGuideAPIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "A3FE8689-08C3-4880-B8A9-7617B4B97C22 - a542c1132e459991"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TVGuideTests.MockTVGuideAPIClient.fetchChannels(completion: (Swift.Result&lt;Swift.Array&lt;TVGuideTests.Channel&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TVGuideTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sosavetyan/Desktop/TVGuide/TVGuideTests/Mocks/MockTVGuideAPIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "A3FE8689-08C3-4880-B8A9-7617B4B97C22 - a542c1132e459991"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TVGuideTests.MockTVGuideAPIClient.fetchChannels(completion: (Swift.Result&lt;Swift.Array&lt;TVGuideTests.Channel&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TVGuideTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sosavetyan/Desktop/TVGuide/TVGuideTests/Mocks/MockTVGuideAPIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "A3FE8689-08C3-4880-B8A9-7617B4B97C22 - a542c1132e459991"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TVGuideTests.MockTVGuideAPIClient.fetchChannels(completion: (Swift.Result&lt;Swift.Array&lt;TVGuideTests.Channel&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TVGuideTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sosavetyan/Desktop/TVGuide/TVGuideTests/Mocks/MockTVGuideAPIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "120">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0FE3871B-53A5-4B58-9818-6B289EBD6B99"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TVGuideTests/Mocks/TVGuideInteractorOutputMock.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "tvGuideDataFetched(channels:programs:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0FE3871B-53A5-4B58-9818-6B289EBD6B99 - 714191e0af622152"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TVGuide.TVGuideInteractorOutputMock.tvGuideDataFetched(channels: Swift.Array&lt;TVGuide.Channel&gt;, programs: Swift.Array&lt;TVGuide.ProgramItem&gt;) -&gt; ()"
+                  moduleName = "TVGuide"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sosavetyan/Desktop/TVGuide/TVGuideTests/Mocks/TVGuideInteractorOutputMock.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "0FE3871B-53A5-4B58-9818-6B289EBD6B99 - 6cc70f7b7e79705d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TVGuideTests.TVGuideInteractorOutputMock.tvGuideDataFetched(channels: Swift.Array&lt;TVGuideTests.Channel&gt;, programs: Swift.Array&lt;TVGuideTests.ProgramItem&gt;) -&gt; ()"
+                  moduleName = "TVGuideTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sosavetyan/Desktop/TVGuide/TVGuideTests/Mocks/TVGuideInteractorOutputMock.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "0FE3871B-53A5-4B58-9818-6B289EBD6B99 - 6cc70f7b7e79705d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TVGuideTests.TVGuideInteractorOutputMock.tvGuideDataFetched(channels: Swift.Array&lt;TVGuideTests.Channel&gt;, programs: Swift.Array&lt;TVGuideTests.ProgramItem&gt;) -&gt; ()"
+                  moduleName = "TVGuideTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sosavetyan/Desktop/TVGuide/TVGuideTests/Mocks/TVGuideInteractorOutputMock.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "0FE3871B-53A5-4B58-9818-6B289EBD6B99 - 6cc70f7b7e79703e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TVGuideTests.TVGuideInteractorOutputMock.tvGuideDataFetched(channels: Swift.Array&lt;TVGuideTests.Channel&gt;, programs: Swift.Array&lt;TVGuideTests.ProgramItem&gt;) -&gt; ()"
+                  moduleName = "TVGuideTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sosavetyan/Desktop/TVGuide/TVGuideTests/Mocks/TVGuideInteractorOutputMock.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "95FBFB28-6FF3-499C-B04D-2724B6F05EA9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TVGuideTests/Mocks/TVGuideInteractorOutputMock.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "tvGuideDataFetchFailed(error:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "95FBFB28-6FF3-499C-B04D-2724B6F05EA9 - c2dbdf2f86aed2e4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TVGuide.TVGuideInteractorOutputMock.tvGuideDataFetchFailed(error: Swift.Error) -&gt; ()"
+                  moduleName = "TVGuide"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sosavetyan/Desktop/TVGuide/TVGuideTests/Mocks/TVGuideInteractorOutputMock.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "95FBFB28-6FF3-499C-B04D-2724B6F05EA9 - 157ec6192384b24"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TVGuideTests.TVGuideInteractorOutputMock.tvGuideDataFetchFailed(error: Swift.Error) -&gt; ()"
+                  moduleName = "TVGuideTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sosavetyan/Desktop/TVGuide/TVGuideTests/Mocks/TVGuideInteractorOutputMock.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "95FBFB28-6FF3-499C-B04D-2724B6F05EA9 - 157ec6192384b24"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TVGuideTests.TVGuideInteractorOutputMock.tvGuideDataFetchFailed(error: Swift.Error) -&gt; ()"
+                  moduleName = "TVGuideTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sosavetyan/Desktop/TVGuide/TVGuideTests/Mocks/TVGuideInteractorOutputMock.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "95FBFB28-6FF3-499C-B04D-2724B6F05EA9 - 157ec6192384bea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TVGuideTests.TVGuideInteractorOutputMock.tvGuideDataFetchFailed(error: Swift.Error) -&gt; ()"
+                  moduleName = "TVGuideTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sosavetyan/Desktop/TVGuide/TVGuideTests/Mocks/TVGuideInteractorOutputMock.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

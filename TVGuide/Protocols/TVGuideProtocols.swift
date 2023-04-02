@@ -22,7 +22,7 @@ protocol TVGuideInteractorInput {
 
 protocol TVGuideInteractorOutput: AnyObject {
     func tvGuideDataFetched(channels: [Channel], programs: [ProgramItem])
-    func tvGuideDataFetchFailed(error: String)
+    func tvGuideDataFetchFailed(error: Error)
 }
 
 protocol TVGuideRouterInput {

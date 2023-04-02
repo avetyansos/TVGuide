@@ -42,9 +42,9 @@ class TVGuideInteractor: TVGuideInteractorInput {
         // Wait for both requests to finish
         dispatchGroup.notify(queue: .main) {
             if let channels = fetchedChannels, let programItems = fetchedProgramItems {
-                self.output?.tvGuideDataFetched(channels: channels, programs: programItems)
+                 self.output?.tvGuideDataFetched(channels: channels, programs: programItems)
             } else {
-                self.output?.tvGuideDataFetchFailed(error: "Something went wrong")
+                self.output?.tvGuideDataFetchFailed(error: TVGuideError.generalError(message: "Something went wrong"))
             }
         }
     }
