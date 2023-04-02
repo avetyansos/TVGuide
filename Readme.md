@@ -22,16 +22,12 @@ The project is organized into the following main directories:
 
 ## Getting Started
 
-1. Clone the repository: `git clone https://github.com/yourusername/YourProject.git`
-2. Open the project in Xcode: `open YourProject.xcodeproj`
+1. Clone the repository: `git clone https://github.com/avetyansos/TVGuide`
+2. Open the project in Xcode: `open TVGuide.xcodeproj`
 3. Install the required dependencies (if any) and ensure that the project builds successfully.
 4. Run the project on the iOS Simulator or an iOS device.
 
 ## Dependencies
 
 - (List any third-party libraries, frameworks, or tools used in the project.)
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 

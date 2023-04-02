@@ -180,6 +180,7 @@
 		67E1E1BA29D95077004DA4A4 = {
 			isa = PBXGroup;
 			children = (
+				67E1E2A229D9C920004DA4A4 /* Readme.md */,
 				67E1E1C529D95077004DA4A4 /* TVGuide */,
 				67E1E1C429D95077004DA4A4 /* Products */,
 			);
@@ -206,7 +207,6 @@
 				67E1E29B29D9C811004DA4A4 /* VIPER */,
 				67E1E2A129D9C8C1004DA4A4 /* Networking */,
 				67E1E28629D9AD5E004DA4A4 /* Utility */,
-				67E1E2A229D9C920004DA4A4 /* Readme.md */,
 			);
 			path = TVGuide;
 			sourceTree = "<group>";
