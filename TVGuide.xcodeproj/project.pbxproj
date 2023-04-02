@@ -8,14 +8,88 @@
 
 /* Begin PBXBuildFile section */
 		67E1E1C729D95077004DA4A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E1C629D95077004DA4A4 /* AppDelegate.swift */; };
-		67E1E1C929D95077004DA4A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E1C829D95077004DA4A4 /* SceneDelegate.swift */; };
-		67E1E1CB29D95077004DA4A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E1CA29D95077004DA4A4 /* ViewController.swift */; };
 		67E1E1CE29D95077004DA4A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67E1E1CC29D95077004DA4A4 /* Main.storyboard */; };
 		67E1E1D029D95078004DA4A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67E1E1CF29D95078004DA4A4 /* Assets.xcassets */; };
 		67E1E1D329D95078004DA4A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67E1E1D129D95078004DA4A4 /* LaunchScreen.storyboard */; };
 		67E1E1DE29D95078004DA4A4 /* TVGuideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E1DD29D95078004DA4A4 /* TVGuideTests.swift */; };
 		67E1E1E829D95078004DA4A4 /* TVGuideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E1E729D95078004DA4A4 /* TVGuideUITests.swift */; };
 		67E1E1EA29D95078004DA4A4 /* TVGuideUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E1E929D95078004DA4A4 /* TVGuideUITestsLaunchTests.swift */; };
+		67E1E1FF29D9513D004DA4A4 /* TVGuideProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E1FE29D9513D004DA4A4 /* TVGuideProtocols.swift */; };
+		67E1E20029D9513D004DA4A4 /* TVGuideProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E1FE29D9513D004DA4A4 /* TVGuideProtocols.swift */; };
+		67E1E20329D95179004DA4A4 /* TVGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E20229D95179004DA4A4 /* TVGuideView.swift */; };
+		67E1E20429D95179004DA4A4 /* TVGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E20229D95179004DA4A4 /* TVGuideView.swift */; };
+		67E1E20629D951B2004DA4A4 /* TVGuidePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E20529D951B2004DA4A4 /* TVGuidePresenter.swift */; };
+		67E1E20729D951B2004DA4A4 /* TVGuidePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E20529D951B2004DA4A4 /* TVGuidePresenter.swift */; };
+		67E1E20929D95235004DA4A4 /* TVGuideInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E20829D95235004DA4A4 /* TVGuideInteractor.swift */; };
+		67E1E20A29D95235004DA4A4 /* TVGuideInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E20829D95235004DA4A4 /* TVGuideInteractor.swift */; };
+		67E1E20C29D95256004DA4A4 /* TVGuideRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E20B29D95256004DA4A4 /* TVGuideRouter.swift */; };
+		67E1E20D29D95256004DA4A4 /* TVGuideRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E20B29D95256004DA4A4 /* TVGuideRouter.swift */; };
+		67E1E22629D95E34004DA4A4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 67E1E22029D95E34004DA4A4 /* README.md */; };
+		67E1E22729D95E34004DA4A4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 67E1E22029D95E34004DA4A4 /* README.md */; };
+		67E1E22829D95E34004DA4A4 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 67E1E22129D95E34004DA4A4 /* Cartfile */; };
+		67E1E22929D95E34004DA4A4 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 67E1E22129D95E34004DA4A4 /* Cartfile */; };
+		67E1E22A29D95E34004DA4A4 /* git_push.sh in Resources */ = {isa = PBXBuildFile; fileRef = 67E1E22229D95E34004DA4A4 /* git_push.sh */; };
+		67E1E22B29D95E34004DA4A4 /* git_push.sh in Resources */ = {isa = PBXBuildFile; fileRef = 67E1E22229D95E34004DA4A4 /* git_push.sh */; };
+		67E1E22C29D95E34004DA4A4 /* project.yml in Resources */ = {isa = PBXBuildFile; fileRef = 67E1E22329D95E34004DA4A4 /* project.yml */; };
+		67E1E22D29D95E34004DA4A4 /* project.yml in Resources */ = {isa = PBXBuildFile; fileRef = 67E1E22329D95E34004DA4A4 /* project.yml */; };
+		67E1E22E29D95E34004DA4A4 /* OpenAPIClient.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 67E1E22429D95E34004DA4A4 /* OpenAPIClient.podspec */; };
+		67E1E22F29D95E34004DA4A4 /* OpenAPIClient.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 67E1E22429D95E34004DA4A4 /* OpenAPIClient.podspec */; };
+		67E1E24229D95E77004DA4A4 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E23629D95E77004DA4A4 /* APIHelper.swift */; };
+		67E1E24329D95E77004DA4A4 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E23629D95E77004DA4A4 /* APIHelper.swift */; };
+		67E1E24429D95E77004DA4A4 /* APIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E23729D95E77004DA4A4 /* APIs.swift */; };
+		67E1E24529D95E77004DA4A4 /* APIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E23729D95E77004DA4A4 /* APIs.swift */; };
+		67E1E24629D95E77004DA4A4 /* JSONDataEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E23829D95E77004DA4A4 /* JSONDataEncoding.swift */; };
+		67E1E24729D95E77004DA4A4 /* JSONDataEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E23829D95E77004DA4A4 /* JSONDataEncoding.swift */; };
+		67E1E24829D95E77004DA4A4 /* JSONEncodingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E23929D95E77004DA4A4 /* JSONEncodingHelper.swift */; };
+		67E1E24929D95E77004DA4A4 /* JSONEncodingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E23929D95E77004DA4A4 /* JSONEncodingHelper.swift */; };
+		67E1E24A29D95E77004DA4A4 /* OpenISO8601DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E23A29D95E77004DA4A4 /* OpenISO8601DateFormatter.swift */; };
+		67E1E24B29D95E77004DA4A4 /* OpenISO8601DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E23A29D95E77004DA4A4 /* OpenISO8601DateFormatter.swift */; };
+		67E1E24C29D95E77004DA4A4 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E23B29D95E77004DA4A4 /* Models.swift */; };
+		67E1E24D29D95E77004DA4A4 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E23B29D95E77004DA4A4 /* Models.swift */; };
+		67E1E24E29D95E77004DA4A4 /* CodableHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E23C29D95E77004DA4A4 /* CodableHelper.swift */; };
+		67E1E24F29D95E77004DA4A4 /* CodableHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E23C29D95E77004DA4A4 /* CodableHelper.swift */; };
+		67E1E25029D95E77004DA4A4 /* SynchronizedDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E23D29D95E77004DA4A4 /* SynchronizedDictionary.swift */; };
+		67E1E25129D95E77004DA4A4 /* SynchronizedDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E23D29D95E77004DA4A4 /* SynchronizedDictionary.swift */; };
+		67E1E25229D95E77004DA4A4 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E23E29D95E77004DA4A4 /* Configuration.swift */; };
+		67E1E25329D95E77004DA4A4 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E23E29D95E77004DA4A4 /* Configuration.swift */; };
+		67E1E25429D95E77004DA4A4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E23F29D95E77004DA4A4 /* Extensions.swift */; };
+		67E1E25529D95E77004DA4A4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E23F29D95E77004DA4A4 /* Extensions.swift */; };
+		67E1E25629D95E77004DA4A4 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E24029D95E77004DA4A4 /* Validation.swift */; };
+		67E1E25729D95E77004DA4A4 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E24029D95E77004DA4A4 /* Validation.swift */; };
+		67E1E25829D95E77004DA4A4 /* URLSessionImplementations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E24129D95E77004DA4A4 /* URLSessionImplementations.swift */; };
+		67E1E25929D95E77004DA4A4 /* URLSessionImplementations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E24129D95E77004DA4A4 /* URLSessionImplementations.swift */; };
+		67E1E25D29D95E86004DA4A4 /* ProgramItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E25A29D95E86004DA4A4 /* ProgramItem.swift */; };
+		67E1E25E29D95E86004DA4A4 /* ProgramItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E25A29D95E86004DA4A4 /* ProgramItem.swift */; };
+		67E1E25F29D95E86004DA4A4 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E25B29D95E86004DA4A4 /* Channel.swift */; };
+		67E1E26029D95E86004DA4A4 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E25B29D95E86004DA4A4 /* Channel.swift */; };
+		67E1E26129D95E86004DA4A4 /* ProgramItemRecentAirTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E25C29D95E86004DA4A4 /* ProgramItemRecentAirTime.swift */; };
+		67E1E26229D95E86004DA4A4 /* ProgramItemRecentAirTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E25C29D95E86004DA4A4 /* ProgramItemRecentAirTime.swift */; };
+		67E1E26429D95E8F004DA4A4 /* DefaultAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E26329D95E8F004DA4A4 /* DefaultAPI.swift */; };
+		67E1E26529D95E8F004DA4A4 /* DefaultAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E26329D95E8F004DA4A4 /* DefaultAPI.swift */; };
+		67E1E26A29D95EA8004DA4A4 /* DefaultAPI.md in Resources */ = {isa = PBXBuildFile; fileRef = 67E1E26629D95EA8004DA4A4 /* DefaultAPI.md */; };
+		67E1E26B29D95EA8004DA4A4 /* DefaultAPI.md in Resources */ = {isa = PBXBuildFile; fileRef = 67E1E26629D95EA8004DA4A4 /* DefaultAPI.md */; };
+		67E1E26C29D95EA8004DA4A4 /* Channel.md in Resources */ = {isa = PBXBuildFile; fileRef = 67E1E26729D95EA8004DA4A4 /* Channel.md */; };
+		67E1E26D29D95EA8004DA4A4 /* Channel.md in Resources */ = {isa = PBXBuildFile; fileRef = 67E1E26729D95EA8004DA4A4 /* Channel.md */; };
+		67E1E26E29D95EA8004DA4A4 /* ProgramItem.md in Resources */ = {isa = PBXBuildFile; fileRef = 67E1E26829D95EA8004DA4A4 /* ProgramItem.md */; };
+		67E1E26F29D95EA8004DA4A4 /* ProgramItem.md in Resources */ = {isa = PBXBuildFile; fileRef = 67E1E26829D95EA8004DA4A4 /* ProgramItem.md */; };
+		67E1E27029D95EA8004DA4A4 /* ProgramItemRecentAirTime.md in Resources */ = {isa = PBXBuildFile; fileRef = 67E1E26929D95EA8004DA4A4 /* ProgramItemRecentAirTime.md */; };
+		67E1E27129D95EA8004DA4A4 /* ProgramItemRecentAirTime.md in Resources */ = {isa = PBXBuildFile; fileRef = 67E1E26929D95EA8004DA4A4 /* ProgramItemRecentAirTime.md */; };
+		67E1E27529D96088004DA4A4 /* ChannelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E27329D96088004DA4A4 /* ChannelTableViewCell.swift */; };
+		67E1E27629D96088004DA4A4 /* ChannelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E27329D96088004DA4A4 /* ChannelTableViewCell.swift */; };
+		67E1E27729D96088004DA4A4 /* ChannelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67E1E27429D96088004DA4A4 /* ChannelTableViewCell.xib */; };
+		67E1E27829D96088004DA4A4 /* ChannelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67E1E27429D96088004DA4A4 /* ChannelTableViewCell.xib */; };
+		67E1E27B29D96149004DA4A4 /* ProgramCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E27929D96149004DA4A4 /* ProgramCollectionViewCell.swift */; };
+		67E1E27C29D96149004DA4A4 /* ProgramCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E27929D96149004DA4A4 /* ProgramCollectionViewCell.swift */; };
+		67E1E27D29D96149004DA4A4 /* ProgramCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67E1E27A29D96149004DA4A4 /* ProgramCollectionViewCell.xib */; };
+		67E1E27E29D96149004DA4A4 /* ProgramCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67E1E27A29D96149004DA4A4 /* ProgramCollectionViewCell.xib */; };
+		67E1E28029D9A0C1004DA4A4 /* TVGuideAPIClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E27F29D9A0C1004DA4A4 /* TVGuideAPIClientProtocol.swift */; };
+		67E1E28129D9A0C1004DA4A4 /* TVGuideAPIClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E27F29D9A0C1004DA4A4 /* TVGuideAPIClientProtocol.swift */; };
+		67E1E28429D9A0E1004DA4A4 /* TVGuideAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E28329D9A0E1004DA4A4 /* TVGuideAPIClient.swift */; };
+		67E1E28529D9A0E1004DA4A4 /* TVGuideAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E28329D9A0E1004DA4A4 /* TVGuideAPIClient.swift */; };
+		67E1E28829D9AD6A004DA4A4 /* Storyboardable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E28729D9AD6A004DA4A4 /* Storyboardable.swift */; };
+		67E1E28929D9AD6A004DA4A4 /* Storyboardable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E28729D9AD6A004DA4A4 /* Storyboardable.swift */; };
+		67E1E28B29D9AD9B004DA4A4 /* StoryboardType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E28A29D9AD9B004DA4A4 /* StoryboardType.swift */; };
+		67E1E28C29D9AD9B004DA4A4 /* StoryboardType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E28A29D9AD9B004DA4A4 /* StoryboardType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +112,6 @@
 /* Begin PBXFileReference section */
 		67E1E1C329D95077004DA4A4 /* TVGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67E1E1C629D95077004DA4A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		67E1E1C829D95077004DA4A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		67E1E1CA29D95077004DA4A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		67E1E1CD29D95077004DA4A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		67E1E1CF29D95078004DA4A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67E1E1D229D95078004DA4A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +121,44 @@
 		67E1E1E329D95078004DA4A4 /* TVGuideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TVGuideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67E1E1E729D95078004DA4A4 /* TVGuideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVGuideUITests.swift; sourceTree = "<group>"; };
 		67E1E1E929D95078004DA4A4 /* TVGuideUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVGuideUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		67E1E1FE29D9513D004DA4A4 /* TVGuideProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVGuideProtocols.swift; sourceTree = "<group>"; };
+		67E1E20229D95179004DA4A4 /* TVGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVGuideView.swift; sourceTree = "<group>"; };
+		67E1E20529D951B2004DA4A4 /* TVGuidePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVGuidePresenter.swift; sourceTree = "<group>"; };
+		67E1E20829D95235004DA4A4 /* TVGuideInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVGuideInteractor.swift; sourceTree = "<group>"; };
+		67E1E20B29D95256004DA4A4 /* TVGuideRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVGuideRouter.swift; sourceTree = "<group>"; };
+		67E1E22029D95E34004DA4A4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = TvGuideApiClient/README.md; sourceTree = SOURCE_ROOT; };
+		67E1E22129D95E34004DA4A4 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Cartfile; path = TvGuideApiClient/Cartfile; sourceTree = SOURCE_ROOT; };
+		67E1E22229D95E34004DA4A4 /* git_push.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = git_push.sh; path = TvGuideApiClient/git_push.sh; sourceTree = SOURCE_ROOT; };
+		67E1E22329D95E34004DA4A4 /* project.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; name = project.yml; path = TvGuideApiClient/project.yml; sourceTree = SOURCE_ROOT; };
+		67E1E22429D95E34004DA4A4 /* OpenAPIClient.podspec */ = {isa = PBXFileReference; lastKnownFileType = file; name = OpenAPIClient.podspec; path = TvGuideApiClient/OpenAPIClient.podspec; sourceTree = SOURCE_ROOT; };
+		67E1E23629D95E77004DA4A4 /* APIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIHelper.swift; path = TvGuideApiClient/OpenAPIClient/Classes/OpenAPIs/APIHelper.swift; sourceTree = SOURCE_ROOT; };
+		67E1E23729D95E77004DA4A4 /* APIs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIs.swift; path = TvGuideApiClient/OpenAPIClient/Classes/OpenAPIs/APIs.swift; sourceTree = SOURCE_ROOT; };
+		67E1E23829D95E77004DA4A4 /* JSONDataEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JSONDataEncoding.swift; path = TvGuideApiClient/OpenAPIClient/Classes/OpenAPIs/JSONDataEncoding.swift; sourceTree = SOURCE_ROOT; };
+		67E1E23929D95E77004DA4A4 /* JSONEncodingHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JSONEncodingHelper.swift; path = TvGuideApiClient/OpenAPIClient/Classes/OpenAPIs/JSONEncodingHelper.swift; sourceTree = SOURCE_ROOT; };
+		67E1E23A29D95E77004DA4A4 /* OpenISO8601DateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OpenISO8601DateFormatter.swift; path = TvGuideApiClient/OpenAPIClient/Classes/OpenAPIs/OpenISO8601DateFormatter.swift; sourceTree = SOURCE_ROOT; };
+		67E1E23B29D95E77004DA4A4 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Models.swift; path = TvGuideApiClient/OpenAPIClient/Classes/OpenAPIs/Models.swift; sourceTree = SOURCE_ROOT; };
+		67E1E23C29D95E77004DA4A4 /* CodableHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CodableHelper.swift; path = TvGuideApiClient/OpenAPIClient/Classes/OpenAPIs/CodableHelper.swift; sourceTree = SOURCE_ROOT; };
+		67E1E23D29D95E77004DA4A4 /* SynchronizedDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SynchronizedDictionary.swift; path = TvGuideApiClient/OpenAPIClient/Classes/OpenAPIs/SynchronizedDictionary.swift; sourceTree = SOURCE_ROOT; };
+		67E1E23E29D95E77004DA4A4 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = TvGuideApiClient/OpenAPIClient/Classes/OpenAPIs/Configuration.swift; sourceTree = SOURCE_ROOT; };
+		67E1E23F29D95E77004DA4A4 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = TvGuideApiClient/OpenAPIClient/Classes/OpenAPIs/Extensions.swift; sourceTree = SOURCE_ROOT; };
+		67E1E24029D95E77004DA4A4 /* Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = TvGuideApiClient/OpenAPIClient/Classes/OpenAPIs/Validation.swift; sourceTree = SOURCE_ROOT; };
+		67E1E24129D95E77004DA4A4 /* URLSessionImplementations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = URLSessionImplementations.swift; path = TvGuideApiClient/OpenAPIClient/Classes/OpenAPIs/URLSessionImplementations.swift; sourceTree = SOURCE_ROOT; };
+		67E1E25A29D95E86004DA4A4 /* ProgramItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProgramItem.swift; path = TvGuideApiClient/OpenAPIClient/Classes/OpenAPIs/Models/ProgramItem.swift; sourceTree = SOURCE_ROOT; };
+		67E1E25B29D95E86004DA4A4 /* Channel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Channel.swift; path = TvGuideApiClient/OpenAPIClient/Classes/OpenAPIs/Models/Channel.swift; sourceTree = SOURCE_ROOT; };
+		67E1E25C29D95E86004DA4A4 /* ProgramItemRecentAirTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProgramItemRecentAirTime.swift; path = TvGuideApiClient/OpenAPIClient/Classes/OpenAPIs/Models/ProgramItemRecentAirTime.swift; sourceTree = SOURCE_ROOT; };
+		67E1E26329D95E8F004DA4A4 /* DefaultAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DefaultAPI.swift; path = TvGuideApiClient/OpenAPIClient/Classes/OpenAPIs/APIs/DefaultAPI.swift; sourceTree = SOURCE_ROOT; };
+		67E1E26629D95EA8004DA4A4 /* DefaultAPI.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = DefaultAPI.md; path = TvGuideApiClient/docs/DefaultAPI.md; sourceTree = SOURCE_ROOT; };
+		67E1E26729D95EA8004DA4A4 /* Channel.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = Channel.md; path = TvGuideApiClient/docs/Channel.md; sourceTree = SOURCE_ROOT; };
+		67E1E26829D95EA8004DA4A4 /* ProgramItem.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = ProgramItem.md; path = TvGuideApiClient/docs/ProgramItem.md; sourceTree = SOURCE_ROOT; };
+		67E1E26929D95EA8004DA4A4 /* ProgramItemRecentAirTime.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = ProgramItemRecentAirTime.md; path = TvGuideApiClient/docs/ProgramItemRecentAirTime.md; sourceTree = SOURCE_ROOT; };
+		67E1E27329D96088004DA4A4 /* ChannelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelTableViewCell.swift; sourceTree = "<group>"; };
+		67E1E27429D96088004DA4A4 /* ChannelTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChannelTableViewCell.xib; sourceTree = "<group>"; };
+		67E1E27929D96149004DA4A4 /* ProgramCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramCollectionViewCell.swift; sourceTree = "<group>"; };
+		67E1E27A29D96149004DA4A4 /* ProgramCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProgramCollectionViewCell.xib; sourceTree = "<group>"; };
+		67E1E27F29D9A0C1004DA4A4 /* TVGuideAPIClientProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVGuideAPIClientProtocol.swift; sourceTree = "<group>"; };
+		67E1E28329D9A0E1004DA4A4 /* TVGuideAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVGuideAPIClient.swift; sourceTree = "<group>"; };
+		67E1E28729D9AD6A004DA4A4 /* Storyboardable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboardable.swift; sourceTree = "<group>"; };
+		67E1E28A29D9AD9B004DA4A4 /* StoryboardType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +209,11 @@
 		67E1E1C529D95077004DA4A4 /* TVGuide */ = {
 			isa = PBXGroup;
 			children = (
+				67E1E28629D9AD5E004DA4A4 /* Workers */,
+				67E1E21D29D95DED004DA4A4 /* TvGuideApiClient */,
+				67E1E20129D9515E004DA4A4 /* Scene */,
+				67E1E1FD29D95125004DA4A4 /* Protocols */,
 				67E1E1C629D95077004DA4A4 /* AppDelegate.swift */,
-				67E1E1C829D95077004DA4A4 /* SceneDelegate.swift */,
-				67E1E1CA29D95077004DA4A4 /* ViewController.swift */,
 				67E1E1CC29D95077004DA4A4 /* Main.storyboard */,
 				67E1E1CF29D95078004DA4A4 /* Assets.xcassets */,
 				67E1E1D129D95078004DA4A4 /* LaunchScreen.storyboard */,
@@ -125,6 +237,136 @@
 				67E1E1E929D95078004DA4A4 /* TVGuideUITestsLaunchTests.swift */,
 			);
 			path = TVGuideUITests;
+			sourceTree = "<group>";
+		};
+		67E1E1FD29D95125004DA4A4 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				67E1E1FE29D9513D004DA4A4 /* TVGuideProtocols.swift */,
+				67E1E27F29D9A0C1004DA4A4 /* TVGuideAPIClientProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		67E1E20129D9515E004DA4A4 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				67E1E27229D9605A004DA4A4 /* Cells */,
+				67E1E20229D95179004DA4A4 /* TVGuideView.swift */,
+				67E1E20529D951B2004DA4A4 /* TVGuidePresenter.swift */,
+				67E1E20829D95235004DA4A4 /* TVGuideInteractor.swift */,
+				67E1E20B29D95256004DA4A4 /* TVGuideRouter.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		67E1E21D29D95DED004DA4A4 /* TvGuideApiClient */ = {
+			isa = PBXGroup;
+			children = (
+				67E1E28229D9A0D3004DA4A4 /* Networking */,
+				67E1E22129D95E34004DA4A4 /* Cartfile */,
+				67E1E22229D95E34004DA4A4 /* git_push.sh */,
+				67E1E22429D95E34004DA4A4 /* OpenAPIClient.podspec */,
+				67E1E22329D95E34004DA4A4 /* project.yml */,
+				67E1E22029D95E34004DA4A4 /* README.md */,
+				67E1E21F29D95E25004DA4A4 /* OpenAPIClient */,
+				67E1E21E29D95E12004DA4A4 /* docs */,
+			);
+			path = TvGuideApiClient;
+			sourceTree = "<group>";
+		};
+		67E1E21E29D95E12004DA4A4 /* docs */ = {
+			isa = PBXGroup;
+			children = (
+				67E1E26729D95EA8004DA4A4 /* Channel.md */,
+				67E1E26629D95EA8004DA4A4 /* DefaultAPI.md */,
+				67E1E26829D95EA8004DA4A4 /* ProgramItem.md */,
+				67E1E26929D95EA8004DA4A4 /* ProgramItemRecentAirTime.md */,
+			);
+			path = docs;
+			sourceTree = "<group>";
+		};
+		67E1E21F29D95E25004DA4A4 /* OpenAPIClient */ = {
+			isa = PBXGroup;
+			children = (
+				67E1E23229D95E41004DA4A4 /* Classes */,
+			);
+			path = OpenAPIClient;
+			sourceTree = "<group>";
+		};
+		67E1E23229D95E41004DA4A4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				67E1E23329D95E4F004DA4A4 /* OpenAPIs */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		67E1E23329D95E4F004DA4A4 /* OpenAPIs */ = {
+			isa = PBXGroup;
+			children = (
+				67E1E23629D95E77004DA4A4 /* APIHelper.swift */,
+				67E1E23729D95E77004DA4A4 /* APIs.swift */,
+				67E1E23C29D95E77004DA4A4 /* CodableHelper.swift */,
+				67E1E23E29D95E77004DA4A4 /* Configuration.swift */,
+				67E1E23F29D95E77004DA4A4 /* Extensions.swift */,
+				67E1E23829D95E77004DA4A4 /* JSONDataEncoding.swift */,
+				67E1E23929D95E77004DA4A4 /* JSONEncodingHelper.swift */,
+				67E1E23B29D95E77004DA4A4 /* Models.swift */,
+				67E1E23A29D95E77004DA4A4 /* OpenISO8601DateFormatter.swift */,
+				67E1E23D29D95E77004DA4A4 /* SynchronizedDictionary.swift */,
+				67E1E24129D95E77004DA4A4 /* URLSessionImplementations.swift */,
+				67E1E24029D95E77004DA4A4 /* Validation.swift */,
+				67E1E23529D95E65004DA4A4 /* Models */,
+				67E1E23429D95E5C004DA4A4 /* APIs */,
+			);
+			path = OpenAPIs;
+			sourceTree = "<group>";
+		};
+		67E1E23429D95E5C004DA4A4 /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				67E1E26329D95E8F004DA4A4 /* DefaultAPI.swift */,
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+		67E1E23529D95E65004DA4A4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				67E1E25B29D95E86004DA4A4 /* Channel.swift */,
+				67E1E25A29D95E86004DA4A4 /* ProgramItem.swift */,
+				67E1E25C29D95E86004DA4A4 /* ProgramItemRecentAirTime.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		67E1E27229D9605A004DA4A4 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				67E1E27329D96088004DA4A4 /* ChannelTableViewCell.swift */,
+				67E1E27429D96088004DA4A4 /* ChannelTableViewCell.xib */,
+				67E1E27929D96149004DA4A4 /* ProgramCollectionViewCell.swift */,
+				67E1E27A29D96149004DA4A4 /* ProgramCollectionViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		67E1E28229D9A0D3004DA4A4 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				67E1E28329D9A0E1004DA4A4 /* TVGuideAPIClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		67E1E28629D9AD5E004DA4A4 /* Workers */ = {
+			isa = PBXGroup;
+			children = (
+				67E1E28729D9AD6A004DA4A4 /* Storyboardable.swift */,
+				67E1E28A29D9AD9B004DA4A4 /* StoryboardType.swift */,
+			);
+			path = Workers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +473,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67E1E22829D95E34004DA4A4 /* Cartfile in Resources */,
+				67E1E27029D95EA8004DA4A4 /* ProgramItemRecentAirTime.md in Resources */,
+				67E1E26E29D95EA8004DA4A4 /* ProgramItem.md in Resources */,
 				67E1E1D329D95078004DA4A4 /* LaunchScreen.storyboard in Resources */,
 				67E1E1D029D95078004DA4A4 /* Assets.xcassets in Resources */,
+				67E1E22A29D95E34004DA4A4 /* git_push.sh in Resources */,
+				67E1E26A29D95EA8004DA4A4 /* DefaultAPI.md in Resources */,
+				67E1E22E29D95E34004DA4A4 /* OpenAPIClient.podspec in Resources */,
+				67E1E22C29D95E34004DA4A4 /* project.yml in Resources */,
+				67E1E22629D95E34004DA4A4 /* README.md in Resources */,
+				67E1E27729D96088004DA4A4 /* ChannelTableViewCell.xib in Resources */,
+				67E1E26C29D95EA8004DA4A4 /* Channel.md in Resources */,
 				67E1E1CE29D95077004DA4A4 /* Main.storyboard in Resources */,
+				67E1E27D29D96149004DA4A4 /* ProgramCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +494,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67E1E22B29D95E34004DA4A4 /* git_push.sh in Resources */,
+				67E1E26B29D95EA8004DA4A4 /* DefaultAPI.md in Resources */,
+				67E1E22929D95E34004DA4A4 /* Cartfile in Resources */,
+				67E1E22D29D95E34004DA4A4 /* project.yml in Resources */,
+				67E1E26F29D95EA8004DA4A4 /* ProgramItem.md in Resources */,
+				67E1E27829D96088004DA4A4 /* ChannelTableViewCell.xib in Resources */,
+				67E1E22729D95E34004DA4A4 /* README.md in Resources */,
+				67E1E22F29D95E34004DA4A4 /* OpenAPIClient.podspec in Resources */,
+				67E1E27129D95EA8004DA4A4 /* ProgramItemRecentAirTime.md in Resources */,
+				67E1E26D29D95EA8004DA4A4 /* Channel.md in Resources */,
+				67E1E27E29D96149004DA4A4 /* ProgramCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +522,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67E1E1CB29D95077004DA4A4 /* ViewController.swift in Sources */,
+				67E1E24229D95E77004DA4A4 /* APIHelper.swift in Sources */,
+				67E1E24C29D95E77004DA4A4 /* Models.swift in Sources */,
+				67E1E28B29D9AD9B004DA4A4 /* StoryboardType.swift in Sources */,
+				67E1E25629D95E77004DA4A4 /* Validation.swift in Sources */,
+				67E1E20629D951B2004DA4A4 /* TVGuidePresenter.swift in Sources */,
 				67E1E1C729D95077004DA4A4 /* AppDelegate.swift in Sources */,
-				67E1E1C929D95077004DA4A4 /* SceneDelegate.swift in Sources */,
+				67E1E25229D95E77004DA4A4 /* Configuration.swift in Sources */,
+				67E1E25829D95E77004DA4A4 /* URLSessionImplementations.swift in Sources */,
+				67E1E20C29D95256004DA4A4 /* TVGuideRouter.swift in Sources */,
+				67E1E24A29D95E77004DA4A4 /* OpenISO8601DateFormatter.swift in Sources */,
+				67E1E28029D9A0C1004DA4A4 /* TVGuideAPIClientProtocol.swift in Sources */,
+				67E1E25029D95E77004DA4A4 /* SynchronizedDictionary.swift in Sources */,
+				67E1E27B29D96149004DA4A4 /* ProgramCollectionViewCell.swift in Sources */,
+				67E1E20329D95179004DA4A4 /* TVGuideView.swift in Sources */,
+				67E1E24829D95E77004DA4A4 /* JSONEncodingHelper.swift in Sources */,
+				67E1E25429D95E77004DA4A4 /* Extensions.swift in Sources */,
+				67E1E28829D9AD6A004DA4A4 /* Storyboardable.swift in Sources */,
+				67E1E26429D95E8F004DA4A4 /* DefaultAPI.swift in Sources */,
+				67E1E27529D96088004DA4A4 /* ChannelTableViewCell.swift in Sources */,
+				67E1E25F29D95E86004DA4A4 /* Channel.swift in Sources */,
+				67E1E28429D9A0E1004DA4A4 /* TVGuideAPIClient.swift in Sources */,
+				67E1E20929D95235004DA4A4 /* TVGuideInteractor.swift in Sources */,
+				67E1E1FF29D9513D004DA4A4 /* TVGuideProtocols.swift in Sources */,
+				67E1E26129D95E86004DA4A4 /* ProgramItemRecentAirTime.swift in Sources */,
+				67E1E25D29D95E86004DA4A4 /* ProgramItem.swift in Sources */,
+				67E1E24629D95E77004DA4A4 /* JSONDataEncoding.swift in Sources */,
+				67E1E24E29D95E77004DA4A4 /* CodableHelper.swift in Sources */,
+				67E1E24429D95E77004DA4A4 /* APIs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +557,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67E1E20429D95179004DA4A4 /* TVGuideView.swift in Sources */,
+				67E1E27629D96088004DA4A4 /* ChannelTableViewCell.swift in Sources */,
+				67E1E28529D9A0E1004DA4A4 /* TVGuideAPIClient.swift in Sources */,
+				67E1E24929D95E77004DA4A4 /* JSONEncodingHelper.swift in Sources */,
 				67E1E1DE29D95078004DA4A4 /* TVGuideTests.swift in Sources */,
+				67E1E24729D95E77004DA4A4 /* JSONDataEncoding.swift in Sources */,
+				67E1E20029D9513D004DA4A4 /* TVGuideProtocols.swift in Sources */,
+				67E1E25929D95E77004DA4A4 /* URLSessionImplementations.swift in Sources */,
+				67E1E25529D95E77004DA4A4 /* Extensions.swift in Sources */,
+				67E1E24B29D95E77004DA4A4 /* OpenISO8601DateFormatter.swift in Sources */,
+				67E1E28C29D9AD9B004DA4A4 /* StoryboardType.swift in Sources */,
+				67E1E24F29D95E77004DA4A4 /* CodableHelper.swift in Sources */,
+				67E1E24529D95E77004DA4A4 /* APIs.swift in Sources */,
+				67E1E24D29D95E77004DA4A4 /* Models.swift in Sources */,
+				67E1E20A29D95235004DA4A4 /* TVGuideInteractor.swift in Sources */,
+				67E1E25329D95E77004DA4A4 /* Configuration.swift in Sources */,
+				67E1E25129D95E77004DA4A4 /* SynchronizedDictionary.swift in Sources */,
+				67E1E28929D9AD6A004DA4A4 /* Storyboardable.swift in Sources */,
+				67E1E27C29D96149004DA4A4 /* ProgramCollectionViewCell.swift in Sources */,
+				67E1E26529D95E8F004DA4A4 /* DefaultAPI.swift in Sources */,
+				67E1E25E29D95E86004DA4A4 /* ProgramItem.swift in Sources */,
+				67E1E20729D951B2004DA4A4 /* TVGuidePresenter.swift in Sources */,
+				67E1E26029D95E86004DA4A4 /* Channel.swift in Sources */,
+				67E1E26229D95E86004DA4A4 /* ProgramItemRecentAirTime.swift in Sources */,
+				67E1E28129D9A0C1004DA4A4 /* TVGuideAPIClientProtocol.swift in Sources */,
+				67E1E24329D95E77004DA4A4 /* APIHelper.swift in Sources */,
+				67E1E25729D95E77004DA4A4 /* Validation.swift in Sources */,
+				67E1E20D29D95256004DA4A4 /* TVGuideRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

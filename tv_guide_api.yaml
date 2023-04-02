@@ -1,0 +1,83 @@
+openapi: 3.0.0
+info:
+  title: TV Guide API
+  description: API to fetch TV channels and program items.
+  version: 1.0.0
+
+servers:
+  - url: https://demo-c.cdn.vmedia.ca/json
+
+paths:
+  /Channels:
+    get:
+      summary: Get TV channels
+      responses:
+        '200':
+          description: A list of TV channels
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Channel'
+        '500':
+          description: Internal server error
+
+  /ProgramItems:
+    get:
+      summary: Get program items
+      responses:
+        '200':
+          description: A list of program items
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/ProgramItem'
+        '500':
+          description: Internal server error
+
+components:
+  schemas:
+    Channel:
+      type: object
+      properties:
+        orderNum:
+          type: integer
+          description: Order of the channel in the TV Guide
+        accessNum:
+          type: integer
+          description: Channel access and display number
+        CallSign:
+          type: string
+          description: Channel CallSIgn
+        id:
+          type: integer
+          description: Channel ID
+
+    ProgramItem:
+      type: object
+      properties:
+        startTime:
+          type: string
+          format: date-time
+          description: Program item start time in UTC
+        recentAirTime:
+          type: object
+          properties:
+            id:
+              type: integer
+              description: Program item ID
+            channelID:
+              type: integer
+              description: Channel ID the program belongs to
+        length:
+          type: integer
+          description: Program length in minutes
+        shortName:
+          type: string
+        name:
+          type: string
+          description: Program name to display
+

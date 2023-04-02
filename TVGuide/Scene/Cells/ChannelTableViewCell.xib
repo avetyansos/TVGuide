@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="150" id="KGk-i7-Jjw" customClass="ChannelTableViewCell" customModule="TVGuide" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="441" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="441" height="150"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GVM-5c-xyQ">
+                        <rect key="frame" x="0.0" y="0.0" width="441" height="150"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sHy-0b-Q4P">
+                                <rect key="frame" x="10" y="65" width="41.333333333333336" height="20.333333333333329"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="ibt-g5-U9N">
+                                <rect key="frame" x="61.333333333333343" y="15" width="369.66666666666663" height="120"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="E0e-BD-on1">
+                                    <size key="itemSize" width="120" height="120"/>
+                                    <size key="estimatedItemSize" width="120" height="120"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="sHy-0b-Q4P" firstAttribute="leading" secondItem="GVM-5c-xyQ" secondAttribute="leading" constant="10" id="2EB-Rc-66h"/>
+                            <constraint firstItem="sHy-0b-Q4P" firstAttribute="centerY" secondItem="ibt-g5-U9N" secondAttribute="centerY" id="7Zg-GX-gMW"/>
+                            <constraint firstAttribute="height" constant="150" id="8Ud-ex-NI2"/>
+                            <constraint firstAttribute="trailing" secondItem="ibt-g5-U9N" secondAttribute="trailing" constant="10" id="Kas-AG-XDg"/>
+                            <constraint firstItem="ibt-g5-U9N" firstAttribute="leading" secondItem="sHy-0b-Q4P" secondAttribute="trailing" constant="10" id="ORt-v0-POf"/>
+                            <constraint firstAttribute="bottom" secondItem="ibt-g5-U9N" secondAttribute="bottom" constant="15" id="S4k-bC-mkr"/>
+                            <constraint firstItem="ibt-g5-U9N" firstAttribute="top" secondItem="GVM-5c-xyQ" secondAttribute="top" constant="15" id="vJ3-Re-462"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="GVM-5c-xyQ" secondAttribute="trailing" id="HNS-zb-crW"/>
+                    <constraint firstItem="GVM-5c-xyQ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="QxZ-FM-Chp"/>
+                    <constraint firstAttribute="bottom" secondItem="GVM-5c-xyQ" secondAttribute="bottom" id="ZDt-X3-RRy"/>
+                    <constraint firstItem="GVM-5c-xyQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="fLr-wc-mmx"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="channelNameLabel" destination="sHy-0b-Q4P" id="cHj-HL-Sd6"/>
+                <outlet property="programsCollectionView" destination="ibt-g5-U9N" id="3L9-I8-Gx8"/>
+            </connections>
+            <point key="canvasLocation" x="-9.9236641221374047" y="19.718309859154932"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
