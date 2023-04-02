@@ -156,6 +156,7 @@
 		67E1E29329D9BB40004DA4A4 /* TVGuideInteractorOutputMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVGuideInteractorOutputMock.swift; sourceTree = "<group>"; };
 		67E1E29629D9BC06004DA4A4 /* TVGuideAPIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVGuideAPIError.swift; sourceTree = "<group>"; };
 		67E1E29929D9C2BE004DA4A4 /* InteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractorTests.swift; sourceTree = "<group>"; };
+		67E1E2A229D9C920004DA4A4 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,7 +181,6 @@
 			isa = PBXGroup;
 			children = (
 				67E1E1C529D95077004DA4A4 /* TVGuide */,
-				67E1E1DC29D95078004DA4A4 /* TVGuideTests */,
 				67E1E1C429D95077004DA4A4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -197,15 +197,16 @@
 		67E1E1C529D95077004DA4A4 /* TVGuide */ = {
 			isa = PBXGroup;
 			children = (
-				67E1E28629D9AD5E004DA4A4 /* Workers */,
-				67E1E21D29D95DED004DA4A4 /* TvGuideApiClient */,
-				67E1E20129D9515E004DA4A4 /* Scene */,
-				67E1E1FD29D95125004DA4A4 /* Protocols */,
 				67E1E1C629D95077004DA4A4 /* AppDelegate.swift */,
 				67E1E1CC29D95077004DA4A4 /* Main.storyboard */,
 				67E1E1CF29D95078004DA4A4 /* Assets.xcassets */,
 				67E1E1D129D95078004DA4A4 /* LaunchScreen.storyboard */,
 				67E1E1D429D95078004DA4A4 /* Info.plist */,
+				67E1E1DC29D95078004DA4A4 /* TVGuideTests */,
+				67E1E29B29D9C811004DA4A4 /* VIPER */,
+				67E1E2A129D9C8C1004DA4A4 /* Networking */,
+				67E1E28629D9AD5E004DA4A4 /* Utility */,
+				67E1E2A229D9C920004DA4A4 /* Readme.md */,
 			);
 			path = TVGuide;
 			sourceTree = "<group>";
@@ -227,18 +228,6 @@
 				67E1E27F29D9A0C1004DA4A4 /* TVGuideAPIClientProtocol.swift */,
 			);
 			path = Protocols;
-			sourceTree = "<group>";
-		};
-		67E1E20129D9515E004DA4A4 /* Scene */ = {
-			isa = PBXGroup;
-			children = (
-				67E1E27229D9605A004DA4A4 /* Cells */,
-				67E1E20229D95179004DA4A4 /* TVGuideView.swift */,
-				67E1E20529D951B2004DA4A4 /* TVGuidePresenter.swift */,
-				67E1E20829D95235004DA4A4 /* TVGuideInteractor.swift */,
-				67E1E20B29D95256004DA4A4 /* TVGuideRouter.swift */,
-			);
-			path = Scene;
 			sourceTree = "<group>";
 		};
 		67E1E21D29D95DED004DA4A4 /* TvGuideApiClient */ = {
@@ -322,33 +311,22 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		67E1E27229D9605A004DA4A4 /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-				67E1E27329D96088004DA4A4 /* ChannelTableViewCell.swift */,
-				67E1E27429D96088004DA4A4 /* ChannelTableViewCell.xib */,
-				67E1E27929D96149004DA4A4 /* ProgramCollectionViewCell.swift */,
-				67E1E27A29D96149004DA4A4 /* ProgramCollectionViewCell.xib */,
-			);
-			path = Cells;
-			sourceTree = "<group>";
-		};
 		67E1E28229D9A0D3004DA4A4 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				67E1E28329D9A0E1004DA4A4 /* TVGuideAPIClient.swift */,
-				67E1E29629D9BC06004DA4A4 /* TVGuideAPIError.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
 		};
-		67E1E28629D9AD5E004DA4A4 /* Workers */ = {
+		67E1E28629D9AD5E004DA4A4 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
 				67E1E28729D9AD6A004DA4A4 /* Storyboardable.swift */,
 				67E1E28A29D9AD9B004DA4A4 /* StoryboardType.swift */,
+				67E1E28329D9A0E1004DA4A4 /* TVGuideAPIClient.swift */,
+				67E1E29629D9BC06004DA4A4 /* TVGuideAPIError.swift */,
 			);
-			path = Workers;
+			path = Utility;
 			sourceTree = "<group>";
 		};
 		67E1E29229D9BADC004DA4A4 /* Mocks */ = {
@@ -358,6 +336,70 @@
 				67E1E29329D9BB40004DA4A4 /* TVGuideInteractorOutputMock.swift */,
 			);
 			path = Mocks;
+			sourceTree = "<group>";
+		};
+		67E1E29B29D9C811004DA4A4 /* VIPER */ = {
+			isa = PBXGroup;
+			children = (
+				67E1E29E29D9C854004DA4A4 /* Views */,
+				67E1E29C29D9C832004DA4A4 /* Interactors */,
+				67E1E29D29D9C841004DA4A4 /* Presenters */,
+				67E1E2A029D9C882004DA4A4 /* Routers */,
+				67E1E1FD29D95125004DA4A4 /* Protocols */,
+			);
+			path = VIPER;
+			sourceTree = "<group>";
+		};
+		67E1E29C29D9C832004DA4A4 /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				67E1E20829D95235004DA4A4 /* TVGuideInteractor.swift */,
+			);
+			path = Interactors;
+			sourceTree = "<group>";
+		};
+		67E1E29D29D9C841004DA4A4 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				67E1E20529D951B2004DA4A4 /* TVGuidePresenter.swift */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		67E1E29E29D9C854004DA4A4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				67E1E29F29D9C85B004DA4A4 /* Custom Cells */,
+				67E1E20229D95179004DA4A4 /* TVGuideView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		67E1E29F29D9C85B004DA4A4 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				67E1E27329D96088004DA4A4 /* ChannelTableViewCell.swift */,
+				67E1E27429D96088004DA4A4 /* ChannelTableViewCell.xib */,
+				67E1E27929D96149004DA4A4 /* ProgramCollectionViewCell.swift */,
+				67E1E27A29D96149004DA4A4 /* ProgramCollectionViewCell.xib */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		67E1E2A029D9C882004DA4A4 /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				67E1E20B29D95256004DA4A4 /* TVGuideRouter.swift */,
+			);
+			path = Routers;
+			sourceTree = "<group>";
+		};
+		67E1E2A129D9C8C1004DA4A4 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				67E1E21D29D95DED004DA4A4 /* TvGuideApiClient */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
