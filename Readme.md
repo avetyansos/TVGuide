@@ -26,8 +26,3 @@ The project is organized into the following main directories:
 2. Open the project in Xcode: `open TVGuide.xcodeproj`
 3. Install the required dependencies (if any) and ensure that the project builds successfully.
 4. Run the project on the iOS Simulator or an iOS device.
-
-## Dependencies
-
-- (List any third-party libraries, frameworks, or tools used in the project.)
-
