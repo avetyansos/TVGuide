@@ -15,4 +15,3 @@ class ProgramCollectionViewCell: UICollectionViewCell {
         programNameLabel.text = program.name
     }
 }
-

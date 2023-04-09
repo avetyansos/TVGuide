@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		67B02FE929E32546006AC59C /* TimelineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B02FE729E32546006AC59C /* TimelineCell.swift */; };
+		67B02FEA29E32546006AC59C /* TimelineCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67B02FE829E32546006AC59C /* TimelineCell.xib */; };
+		67B02FEC29E32AB0006AC59C /* UIDate+LocalTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B02FEB29E32AB0006AC59C /* UIDate+LocalTime.swift */; };
+		67B02FEE29E33DFD006AC59C /* SyncCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B02FED29E33DFD006AC59C /* SyncCollectionView.swift */; };
 		67E1E1C729D95077004DA4A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E1C629D95077004DA4A4 /* AppDelegate.swift */; };
 		67E1E1CE29D95077004DA4A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67E1E1CC29D95077004DA4A4 /* Main.storyboard */; };
 		67E1E1D029D95078004DA4A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67E1E1CF29D95078004DA4A4 /* Assets.xcassets */; };
@@ -98,6 +102,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		67B02FE729E32546006AC59C /* TimelineCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineCell.swift; sourceTree = "<group>"; };
+		67B02FE829E32546006AC59C /* TimelineCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimelineCell.xib; sourceTree = "<group>"; };
+		67B02FEB29E32AB0006AC59C /* UIDate+LocalTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDate+LocalTime.swift"; sourceTree = "<group>"; };
+		67B02FED29E33DFD006AC59C /* SyncCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncCollectionView.swift; sourceTree = "<group>"; };
 		67E1E1C329D95077004DA4A4 /* TVGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67E1E1C629D95077004DA4A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67E1E1CD29D95077004DA4A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -125,7 +133,7 @@
 		67E1E29929D9C2BE004DA4A4 /* InteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractorTests.swift; sourceTree = "<group>"; };
 		67E1E2A229D9C920004DA4A4 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		67E1E2A329D9CDC6004DA4A4 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Cartfile; path = TVGuide/Networking/Cartfile; sourceTree = SOURCE_ROOT; };
-		67E1E2A429D9CDC6004DA4A4 /* OpenAPIClient.podspec */ = {isa = PBXFileReference; lastKnownFileType = file; name = OpenAPIClient.podspec; path = TVGuide/Networking/OpenAPIClient.podspec; sourceTree = SOURCE_ROOT; };
+		67E1E2A429D9CDC6004DA4A4 /* OpenAPIClient.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = OpenAPIClient.podspec; path = TVGuide/Networking/OpenAPIClient.podspec; sourceTree = SOURCE_ROOT; };
 		67E1E2A529D9CDC6004DA4A4 /* project.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; name = project.yml; path = TVGuide/Networking/project.yml; sourceTree = SOURCE_ROOT; };
 		67E1E2A629D9CDC6004DA4A4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = TVGuide/Networking/README.md; sourceTree = SOURCE_ROOT; };
 		67E1E2A729D9CDC6004DA4A4 /* git_push.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = git_push.sh; path = TVGuide/Networking/git_push.sh; sourceTree = SOURCE_ROOT; };
@@ -293,6 +301,8 @@
 				67E1E28A29D9AD9B004DA4A4 /* StoryboardType.swift */,
 				67E1E28329D9A0E1004DA4A4 /* TVGuideAPIClient.swift */,
 				67E1E29629D9BC06004DA4A4 /* TVGuideAPIError.swift */,
+				67B02FEB29E32AB0006AC59C /* UIDate+LocalTime.swift */,
+				67B02FED29E33DFD006AC59C /* SyncCollectionView.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -350,6 +360,8 @@
 				67E1E27429D96088004DA4A4 /* ChannelTableViewCell.xib */,
 				67E1E27929D96149004DA4A4 /* ProgramCollectionViewCell.swift */,
 				67E1E27A29D96149004DA4A4 /* ProgramCollectionViewCell.xib */,
+				67B02FE729E32546006AC59C /* TimelineCell.swift */,
+				67B02FE829E32546006AC59C /* TimelineCell.xib */,
 			);
 			path = "Custom Cells";
 			sourceTree = "<group>";
@@ -453,6 +465,7 @@
 			files = (
 				67E1E2A829D9CDC6004DA4A4 /* Cartfile in Resources */,
 				67E1E1D329D95078004DA4A4 /* LaunchScreen.storyboard in Resources */,
+				67B02FEA29E32546006AC59C /* TimelineCell.xib in Resources */,
 				67E1E1D029D95078004DA4A4 /* Assets.xcassets in Resources */,
 				67E1E2AE29D9CDC6004DA4A4 /* README.md in Resources */,
 				67E1E2AC29D9CDC6004DA4A4 /* project.yml in Resources */,
@@ -497,15 +510,18 @@
 				67E1E2DB29D9CE00004DA4A4 /* ProgramItemRecentAirTime.swift in Sources */,
 				67E1E20C29D95256004DA4A4 /* TVGuideRouter.swift in Sources */,
 				67E1E28029D9A0C1004DA4A4 /* TVGuideAPIClientProtocol.swift in Sources */,
+				67B02FE929E32546006AC59C /* TimelineCell.swift in Sources */,
 				67E1E27B29D96149004DA4A4 /* ProgramCollectionViewCell.swift in Sources */,
 				67E1E20329D95179004DA4A4 /* TVGuideView.swift in Sources */,
 				67E1E2C229D9CDEF004DA4A4 /* JSONEncodingHelper.swift in Sources */,
+				67B02FEC29E32AB0006AC59C /* UIDate+LocalTime.swift in Sources */,
 				67E1E28829D9AD6A004DA4A4 /* Storyboardable.swift in Sources */,
 				67E1E2CA29D9CDEF004DA4A4 /* URLSessionImplementations.swift in Sources */,
 				67E1E27529D96088004DA4A4 /* ChannelTableViewCell.swift in Sources */,
 				67E1E2C429D9CDEF004DA4A4 /* Extensions.swift in Sources */,
 				67E1E2E029D9CE20004DA4A4 /* DefaultAPI.swift in Sources */,
 				67E1E2BE29D9CDEF004DA4A4 /* SynchronizedDictionary.swift in Sources */,
+				67B02FEE29E33DFD006AC59C /* SyncCollectionView.swift in Sources */,
 				67E1E28429D9A0E1004DA4A4 /* TVGuideAPIClient.swift in Sources */,
 				67E1E2C829D9CDEF004DA4A4 /* JSONDataEncoding.swift in Sources */,
 				67E1E20929D95235004DA4A4 /* TVGuideInteractor.swift in Sources */,

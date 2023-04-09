@@ -10,8 +10,8 @@ import Foundation
 import AnyCodable
 #endif
 
-public struct ProgramItem: Codable, JSONEncodable, Hashable {
-
+public struct ProgramItem: Codable, JSONEncodable, Hashable, Identifiable {
+    public let id = UUID()
     /** Program item start time in UTC */
     public var startTime: Date?
     public var recentAirTime: ProgramItemRecentAirTime?
@@ -20,6 +20,9 @@ public struct ProgramItem: Codable, JSONEncodable, Hashable {
     public var shortName: String?
     /** Program name to display */
     public var name: String?
+    var duration: TimeInterval? {
+        return TimeInterval((length ?? 1) * 60)
+    }
 
     public init(startTime: Date? = nil, recentAirTime: ProgramItemRecentAirTime? = nil, length: Int? = nil, shortName: String? = nil, name: String? = nil) {
         self.startTime = startTime

@@ -19,7 +19,7 @@ extension Storyboardable {
     static func instantiateFromStoryboard() -> Self {
         return instantiateFromStoryboardHelper()
     }
-
+    
     private static func instantiateFromStoryboardHelper<T>() -> T {
         let identifier = String(describing: self)
         let storyboard = UIStoryboard(name: storyboardName.rawValue, bundle: nil)

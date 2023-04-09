@@ -22,7 +22,9 @@ class TVGuidePresenter: TVGuideViewOutput, TVGuideInteractorOutput {
     func tvGuideDataFetched(channels: [Channel], programs: [ProgramItem]) {
         self.channels = channels
         self.programs = programs
-        view?.reloadData()
+        DispatchQueue.main.async {
+            self.view?.reloadData()
+        }
     }
 
     func tvGuideDataFetchFailed(error: Error) {
